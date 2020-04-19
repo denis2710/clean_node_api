@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/denis2710/clean_node_api/issues"
   },
-  "homepage": "https://github.com/denis2710/clean_node_api#readme"
+  "homepage": "https://github.com/denis2710/clean_node_api#readme",
+  "devDependencies": {
+    "standard": "^14.3.3"
+  }
 }
