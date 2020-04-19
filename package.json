@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/denis2710/clean_node_api.git"
   },
+  "lint-staged": {
+    "*.js": ["standard"]
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -17,6 +20,7 @@
   },
   "homepage": "https://github.com/denis2710/clean_node_api#readme",
   "devDependencies": {
+    "lint-staged": "^10.1.6",
     "standard": "^14.3.3"
   }
 }
