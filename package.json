@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/denis2710/clean_node_api#readme",
   "devDependencies": {
-    "git-commit-msg-linter": "^3.2.6"
+    "@types/node": "^16.3.3",
+    "git-commit-msg-linter": "^3.2.6",
+    "typescript": "^4.3.5"
   }
 }
