@@ -4,8 +4,8 @@
   "description": "Essa API faz parte do treinamento do professor Rodrigo Manguinho (Mango) na Udemy.",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:staged": "jest"
+    "test": "jest --passWithNoTests",
+    "test:staged": "jest --passWithNoTests"
   },
   "repository": {
     "type": "git",
