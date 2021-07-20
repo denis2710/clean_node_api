@@ -1,6 +1,5 @@
 import { InvalidParamError } from '../errors/invalid-param-error'
 import { MissingParamError } from '../errors/missing-param-error'
-import { ServerError } from '../errors/server-error'
 import { badRequest, serverError } from '../helpers/http-helper'
 import { Controller } from '../protocols/controller'
 import { EmailValidator } from '../protocols/email-validator'
@@ -32,7 +31,7 @@ export class SingUpController implements Controller {
         body: 'sucess'
       }
     } catch (error) {
-      return serverError(new ServerError())
+      return serverError()
     }
   }
 }
